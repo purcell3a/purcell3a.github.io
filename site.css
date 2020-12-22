@@ -1,0 +1,11 @@
+
+body{
+    background: linear-gradient(to right,#fff6f6, #a4a8d0);
+}
+
+#circle {
+    width: 100px;
+    height: 100px;
+    background: red;
+    border-radius: 50%
+  }
