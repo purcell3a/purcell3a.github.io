@@ -32,6 +32,7 @@ h2{
 
 #div2{
     background: linear-gradient(to right,#fff6f6, #a4a8d0);
+    height: 100%
 }
 #circle {
     margin-bottom: 0;
@@ -45,7 +46,7 @@ h2{
 /* The hero image */
 .hero-image {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-  background-image: linear-gradient(#333533, #242423);
+  background-image:linear-gradient(#afeeee, #d0cde2);
 
   /* Set a specific height */
   height: 100%;
@@ -59,7 +60,7 @@ h2{
 
 /* Place text in the middle of the image */
 .hero-text {
-  OUTLINE: 1rem solid paleturquoise;
+  OUTLINE: 1rem solid;
   width: 80%;
   padding: 5%;
   text-align: center;
