@@ -4,7 +4,16 @@ body, html{
     height: 100%;
     background: linear-gradient(#afeeee, #d0cde2);
 }
+#nav-col{
+    width:10%;
+}
 
+#img-col{
+    width:50%;
+}
+#title-col{
+    width:40%;
+}
 .flattbutton{
     color: #08fdd8;
     font-size: 13px;
