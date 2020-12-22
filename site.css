@@ -145,13 +145,14 @@ h2{
 /* Put some text on each face */
 #pyramid > div:after {
     position: absolute;
-    content: "Triangle";
+    /* content: "Javascript"; */
     color: #fff;
     left: -250px;
     text-align: center;
 }
 
 #pyramid > div:first-child  {
+    content: "Javascript";
     border-color: transparent transparent transparent rgba(50, 50, 50, 0.6);
     -webkit-transform: rotateY(-19.5deg) rotateX(180deg) translateY(-400px);
     -moz-transform:    rotateY(-19.5deg) rotateX(180deg) translateY(-400px);
@@ -160,6 +161,7 @@ h2{
 }
 
 #pyramid > div:nth-child(2) {
+    content: "React";
     border-color: transparent transparent transparent rgba(50, 50, 50, 0.6);
     -webkit-transform: rotateY(90deg) rotateZ(60deg) rotateX(180deg) translateY(-400px);
     -moz-transform:    rotateY(90deg) rotateZ(60deg) rotateX(180deg) translateY(-400px);
@@ -168,6 +170,7 @@ h2{
 }
 
 #pyramid > div:nth-child(3) {
+    content: "Python";
     border-color: transparent transparent transparent rgba(50, 50, 50, 0.9);
     -webkit-transform: rotateX(60deg) rotateY(19.5deg);
     -moz-transform:    rotateX(60deg) rotateY(19.5deg);
@@ -176,6 +179,7 @@ h2{
 }
 
 #pyramid > div:nth-child(4) {
+    content: "PostgresSQL";
     border-color: transparent transparent transparent rgba(50, 50, 50, 0.8);
     -webkit-transform: rotateX(-60deg) rotateY(19.5deg) translateX(-116px) translateY(-200px) translateZ(326px);
     -moz-transform:    rotateX(-60deg) rotateY(19.5deg) translateX(-116px) translateY(-200px) translateZ(326px);
