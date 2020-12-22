@@ -6,13 +6,16 @@ body, html{
 }
 #nav-col{
     width:10%;
+    background:transparent;
 }
 
 #img-col{
     width:50%;
+    background:transparent;
 }
 #title-col{
     width:40%;
+    background:transparent;
 }
 .flattbutton{
     color: #08fdd8;
@@ -40,7 +43,7 @@ h2{
 }
 
 #div2{
-    background: linear-gradient(to right,#fff6f6, #a4a8d0);
+    background: transparent;
     height: 100%
 }
 #circle {
