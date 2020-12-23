@@ -9,6 +9,13 @@ body, html{
     background:transparent;
 }
 
+.row{
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
 #img-col{
     width:50%;
     background:transparent;
