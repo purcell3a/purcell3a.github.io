@@ -26,13 +26,13 @@ body, html{
     background:transparent;
 }
 .flattbutton{
-    color: black;
+    color: pink;
     font-size: 13px;
     letter-spacing: 4px;
     font-family: "Open Sans", sans-serif;
     text-decoration: none;
     padding: 10px 18px;
-    border: 1px solid black;
+    border: 1px solid pink;
     margin-top: 25px;
     float: left;
     -webkit-animation: myanim2 1s 1.8s backwards;
@@ -133,7 +133,7 @@ h2{
   }
 
   /* ================================globe================== */
-  ::marker {
+  /* ::marker {
     unicode-bidi: isolate;
     font-variant-numeric: tabular-nums;
     text-transform: none;
@@ -157,4 +157,4 @@ h2{
   #myCanvasContainer li a {
     font-size: 30px;
     font-family: font-file-82132;
-}
+} */
