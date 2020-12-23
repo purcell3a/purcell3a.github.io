@@ -1,6 +1,7 @@
 
 
 body, html{
+    font: 
     height: 100%;
     background: #1d1d1d;
 }
@@ -79,7 +80,8 @@ h2{
 
 /* Place text in the middle of the image */
 .hero-text {
-  OUTLINE: 1rem solid linear-gradient(#c6eaea, #dcdae2);
+  font-family: "Dosis", Helvetica, Arial, sans-serif;
+  OUTLINE: 1rem linear-gradient(#c6eaea, #dcdae2);
   width: 80%;
   padding: 20%;
   text-align: center;
