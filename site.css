@@ -2,7 +2,7 @@
 
 body, html{
     height: 100%;
-    background: linear-gradient(#c6eaea, #dcdae2);
+    background: #1d1d1d;
 }
 #nav-col{
     border: 1px solid azure;
@@ -79,7 +79,7 @@ h2{
 
 /* Place text in the middle of the image */
 .hero-text {
-  OUTLINE: 1rem solid;
+  OUTLINE: 1rem solid linear-gradient(#c6eaea, #dcdae2);
   width: 80%;
   padding: 20%;
   text-align: center;
@@ -87,19 +87,19 @@ h2{
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: white;
+  color:#fff;
 }
 
 /* ====================PYRAMID============================= */
 /* The sidebar menu */
 .sidenav {
     height: 100%; /* Full-height: remove this if you want "auto" height */
-    width: 160px; /* Set the width of the sidebar */
+    width: 5rem; /* Set the width of the sidebar */
     position: fixed; /* Fixed Sidebar (stay in place on scroll) */
     z-index: 1; /* Stay on top */
     top: 0; /* Stay at the top */
     left: 0;
-    background-color: #111; /* Black */
+    background-color: #181818;; /* Black */
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 20px;
   }
@@ -108,7 +108,7 @@ h2{
   .sidenav a {
     padding: 6px 8px 6px 16px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 1rem;
     color: #818181;
     display: block;
   }
