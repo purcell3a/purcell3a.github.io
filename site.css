@@ -10,6 +10,11 @@ body, html{
     background:transparent;
 }
 
+h1{
+    font-size: 5rem;
+    font-weight: 500;
+    transition: all 0.3s ease-out;
+}
 .row{
     height: 100vh;
     display: flex;
