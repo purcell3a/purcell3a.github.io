@@ -5,10 +5,14 @@ body, html{
     height: 100%;
     background: #1d1d1d;
 }
+
+
 #nav-col{
     border: 1px solid azure;
     background:transparent;
 }
+
+
 #outline{
     width: -webkit-fill-available;
     height: 75%;
@@ -18,11 +22,15 @@ body, html{
     display:flex;
     flex-wrap:wrap;
 }
+
+
 h1{
     font-size: 5rem;
     font-weight: 500;
     transition: all 0.3s ease-out;
 }
+
+
 .row{
     height: 100vh;
     display: flex;
@@ -30,16 +38,22 @@ h1{
     margin-right: -15px;
     margin-left: -15px;
 }
+
+
 #img-col{
     width:50%;
     margin-top: 30%;
     z-index: 1;
 
 }
+
+
 #title-col{
     width:40%;
     background:transparent;
 }
+
+
 .flattbutton{
     color: pink;
     font-size: 13px;
@@ -119,33 +133,34 @@ h2{
     background-color: #181818;; /* Black */
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 20px;
-  }
-  
+}
+
   /* The navigation menu links */
-  .sidenav a {
+.sidenav a {
     padding: 6px 8px 6px 16px;
     text-decoration: none;
     font-size: 1rem;
     color: #818181;
     display: block;
-  }
-  
+}
+
   /* When you mouse over the navigation links, change their color */
-  .sidenav a:hover {
+.sidenav a:hover {
     color: #f1f1f1;
-  }
-  
+}
+
   /* Style page content */
-  .main {
-    margin-left: 160px; /* Same as the width of the sidebar */
-    padding: 0px 10px;
-  }
-  
+.main {
+    margin-left: 10rem;
+    padding: 0rem 1rem;
+    margin-right:-2rem;
+}
+
   /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
-  @media screen and (max-height: 450px) {
+@media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
-  }
+}
 
   /* ================================globe================== */
   /* ::marker {
