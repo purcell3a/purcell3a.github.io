@@ -1,7 +1,12 @@
+/* ====================  IN PROGRESS ============================= */
 
+#youtube{
+    margin:0;
+}
 /* ====================  GLOBAL ============================= */
 body, html{
-    position:fixed;
+    overflow-x: hidden;
+    overflow-y: auto;
     color:white;
     height: 100%;
     background: #1d1d1d;
