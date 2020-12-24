@@ -1,6 +1,7 @@
 
 /* ====================  GLOBAL ============================= */
 body, html{
+    position:fixed;
     color:white;
     height: 100%;
     background: #1d1d1d;
@@ -29,6 +30,7 @@ h2{
     margin-left: 0rem;
     padding: 0rem 1rem;
     margin-right:-2rem;
+    overflow-x: hidden; /* Disable horizontal scroll */
 }
 
 .row{
@@ -54,8 +56,12 @@ h2{
 
 
 #title-col{
-    width:40%;
-    background:transparent;
+    margin-left: -40%;
+    width: 40%;
+    background: transparent;
+    margin-top: 20%;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -63,7 +69,7 @@ h2{
 #outline{
     width: -webkit-fill-available;
     height: 75%;
-    outline: 2rem solid;
+    outline: 2rem solid darkgrey;
     margin-top: 10%;
     margin-left: -15rem;
     display:flex;
@@ -71,12 +77,14 @@ h2{
 }
 
 #circle {
+    margin-top: -20rem;
     margin-bottom: 0;
     margin-left: 10%;
-    width: 43%;
-    height: 60%;
+    width: 50rem;
+    height: 50rem;
     background: #333533;
     border-radius: 50%;
+}
 }
 
 .hero-image {
