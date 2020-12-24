@@ -25,6 +25,12 @@ h2{
 }
 
 /* ====================  GRID: ROW & COL ============================= */
+.main {
+    margin-left: 0rem;
+    padding: 0rem 1rem;
+    margin-right:-2rem;
+}
+
 .row{
     height: 100vh;
     display: flex;
@@ -148,12 +154,6 @@ h2{
     color: #f1f1f1;
 }
 
-  /* Style page content */
-.main {
-    margin-left: 10rem;
-    padding: 0rem 1rem;
-    margin-right:-2rem;
-}
 
   /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
 @media screen and (max-height: 450px) {
@@ -164,17 +164,26 @@ h2{
   /* ================================ ANCHORS ================== */
 
 #project-anchor{
-      width:100%;
+    padding: 2rem;
+    margin-left: 6rem;
+    margin-right: -5rem;
 }
 
 #stack-anchor{
-    width:100%;
+    padding: 2rem;
+    margin-left: 6rem;
+    margin-right: -5rem;
 }
 
 #about-anchor{
-    width:100%;
+    padding: 2rem;
+    margin-left: 6rem;
+    margin-right: -5rem;
 }
 
+
 #contact-anchor{
-    width:100%;
+    padding: 2rem;
+    margin-left: 6rem;
+    margin-right: -5rem;
 }
