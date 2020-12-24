@@ -9,7 +9,15 @@ body, html{
     border: 1px solid azure;
     background:transparent;
 }
-
+#outline{
+    width: -webkit-fill-available;
+    height: 75%;
+    outline: 2rem solid;
+    margin-top: 10%;
+    margin-left: -15rem;
+    display:flex;
+    flex-wrap:wrap;
+}
 h1{
     font-size: 5rem;
     font-weight: 500;
@@ -24,7 +32,9 @@ h1{
 }
 #img-col{
     width:50%;
-    background:transparent;
+    margin-top: 30%;
+    z-index: 1;
+
 }
 #title-col{
     width:40%;
