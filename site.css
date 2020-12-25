@@ -3,6 +3,14 @@
 #youtube{
     margin:0;
 }
+
+img{
+    width: 90%;
+    min-width: 60rem;
+    vertical-align: middle;
+}
+
+
 /* ====================  GLOBAL ============================= */
 body, html{
     overflow-x: hidden;
@@ -61,12 +69,9 @@ h2{
 
 
 #title-col{
-    margin-left: -40%;
-    width: 40%;
-    background: transparent;
-    height: 100%;
-    justify-content: center;
-    align-items: center;
+    font-family: "Dosis", Helvetica, Arial, sans-serif;
+    transform: translate(-100%, 50%);
+    color:linear-gradient(#c6eaea, #dcdae2);
 }
 
 
@@ -90,36 +95,13 @@ h2{
     background: #333533;
     border-radius: 50%;
 }
-}
-
-.hero-image {
-    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-    background-image:transparent;
-
-    /* Set a specific height */
-    height: 100%;
-
-    /* Position and center the image to scale nicely on all screens */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-}
 
 
-.hero-text {
+/* .hero-text {
     font-family: "Dosis", Helvetica, Arial, sans-serif;
-    OUTLINE: 1rem linear-gradient(#c6eaea, #dcdae2);
-    width: 100%;
-    padding: 10%;
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color:#fff;
-    margin-left: 10%;
-  }
+    transform: translate(-100%, 50%);
+    color:linear-gradient(#c6eaea, #dcdae2);
+} */
 
 
 .flattbutton{
