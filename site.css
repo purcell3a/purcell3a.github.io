@@ -76,14 +76,6 @@ h2{
 
 
 /* ====================  HOME  ============================= */
-#outline{
-    height: 75%;
-    outline: 2rem solid darkgrey;
-    margin-top: 10%;
-    margin-left: -15rem;
-    display:flex;
-    flex-wrap:wrap;
-}
 
 #circle {
     margin-top: -20rem;
