@@ -15,7 +15,10 @@
 } */
 
 #first-row{
-    background: url("neon-leaf.png");
+    background-image: url(neon-leaf.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 #shoppies-img{
