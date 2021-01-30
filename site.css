@@ -77,7 +77,6 @@ h2{
 
 /* ====================  HOME  ============================= */
 #outline{
-    width: -webkit-fill-available;
     height: 75%;
     outline: 2rem solid darkgrey;
     margin-top: 10%;
@@ -97,11 +96,11 @@ h2{
 }
 
 
-/* .hero-text {
+.hero-text {
     font-family: "Dosis", Helvetica, Arial, sans-serif;
     transform: translate(-100%, 50%);
     color:linear-gradient(#c6eaea, #dcdae2);
-} */
+}
 
 
 .flattbutton{
