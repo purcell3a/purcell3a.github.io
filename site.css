@@ -41,7 +41,8 @@ body, html{
     overflow-y: auto;
     color:#cacaca;
     height: 100%;
-    background: #1d1d1d;
+    /* background: #1d1d1d; */
+    background-color: black;
 }
 /* #8a8a8a */
 
@@ -190,6 +191,7 @@ h2{
     padding: 2rem;
     margin-left: 6rem;
     margin-right: -5rem;
+
 }
 
 #stack-anchor{
