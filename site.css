@@ -22,7 +22,8 @@ body, html{
 /* #8a8a8a */
 
 h1{
-    font-size: 5rem;
+    width: 55rem;
+    font-size: 8rem;
     font-weight: 500;
     transition: all 0.3s ease-out;
 }
@@ -70,7 +71,7 @@ h2{
 
 #title-col{
     font-family: "Dosis", Helvetica, Arial, sans-serif;
-    transform: translate(-100%, 50%);
+    transform: translate(0, 30%);
     color:linear-gradient(#c6eaea, #dcdae2);
 }
 
