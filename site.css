@@ -16,6 +16,12 @@
     vertical-align: middle;
 }
 
+#resume-img{
+    width: 90%;
+    min-width: 60rem;
+    vertical-align: middle;
+}
+
 /* ====================  GLOBAL ============================= */
 body, html{
     overflow-x: hidden;
@@ -76,7 +82,11 @@ h2{
 
 #title-col{
     font-family: "Dosis", Helvetica, Arial, sans-serif;
-    transform: translate(0, 30%);
+    margin-left: 5rem;
+    padding-left: 5rem;
+    padding-top: 17%;
+    text-align: left;
+    /* transform: translate(0, 30%); */
     color:linear-gradient(#c6eaea, #dcdae2);
 }
 
