@@ -10,6 +10,10 @@
     vertical-align: middle;
 } */
 
+#first-row{
+    background-image: url("neon-leaf.png");
+}
+
 #shoppies-img{
     width: 90%;
     min-width: 60rem;
