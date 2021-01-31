@@ -71,7 +71,7 @@ h2{
 
 /* ====================  GRID: ROW & COL ============================= */
 .main {
-    margin-left: 0rem;
+    margin-left: 6rem;
     padding: 0rem 1rem;
     margin-right:-2rem;
     overflow-x: hidden; /* Disable horizontal scroll */
