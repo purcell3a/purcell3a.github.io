@@ -6,7 +6,7 @@
     transform: translate(-50%, -50%);
   }
 
-  
+
 #youtube{
     margin:0;
     margin: 0;
@@ -21,7 +21,7 @@
 } */
 
 #first-row{
-    background-image: url(neon-leaf.png);
+    background-image: url(img/neon-leaf.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -45,6 +45,7 @@
 
 
 #resume-img{
+    filter: brightness(.9) blur(1px);
     width: inherit;
     vertical-align: middle;
 }
