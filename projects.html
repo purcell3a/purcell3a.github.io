@@ -1,26 +1,8 @@
-<!DOCTYPE html>
+{% extends 'base.html' %}
 
-    <html>
-        <head>
+{% block title %}Projects{% endblock %}
 
-        <title>Projects</title>
-
-        </head>
-
-        <body>
-
-            <!-- Side navigation -->
-                  <div class="sidenav">
-                          <nav class="nav flex-column">
-                                <a class="nav-link" href="stack.html"><i class="fas fa-cog"></i></a>
-                                <a class="nav-link" href="about.html"><i class="fad fa-info-square"></i></a>
-                                <a class="nav-link" href="#project-anchor"><i class="fas fa-laptop-code"></i></a>
-                                <a class="nav-link" href="#contact-anchor"><i class="bi bi-chat-left-text-fill"></i></a>
-                                <a class="nav-link" href="https://github.com/purcell3a" target="_blank"><i class="fab fa-github-square"></i></a>
-                                <a class="nav-link" href="https://www.linkedin.com/in/purcell3a/" target="_blank"><i class="fab fa-linkedin"></i></a>
-                            </nav>
-                        </div>
-
+{% block content %}
                         <!-- Page content -->
                         <div class="main">
                             <div class="row" id="project-anchor">
@@ -58,6 +40,5 @@
                                   </div>
                             </div>
 
-        </body>
+{% endblock %}
 
-    </html>
