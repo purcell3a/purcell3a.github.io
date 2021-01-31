@@ -33,6 +33,10 @@
     outline-color: aquamarine;
 }
 
+#shoppies-a{
+    width:inherit;
+}
+
 #resume-img{
     width: 90%;
     min-width: 60rem;
