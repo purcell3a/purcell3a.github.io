@@ -8,10 +8,10 @@
     outline-color: aquamarine;
 }
 
-[class*="col-"] {
+/* [class*="col-"] {
     float: left;
     border: 1px solid red;
-}
+} */
 
 #first-row{
     background-image: url(neon-leaf.png);
@@ -74,7 +74,7 @@ h2{
 /* ====================  GRID: ROW & COL ============================= */
 .main {
     margin-left: 6rem;
-    padding: 0rem 1rem;
+    padding: 1rem;
     margin-right:-2rem;
     overflow-x: hidden; /* Disable horizontal scroll */
 }
