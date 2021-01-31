@@ -3,7 +3,7 @@
 #youtube{
     margin:0;
     margin: 0;
-    min-width: 50rem;
+    width:inherit;
     outline: inset;
     outline-color: aquamarine;
 }
@@ -27,8 +27,7 @@
 }
 
 #shoppies-img{
-    width: 100%;
-    min-width: 50rem;
+    width:inherit;
     vertical-align: middle;
     outline: inset;
     outline-color: aquamarine;
@@ -101,7 +100,6 @@ h2{
 
 #title-col{
     font-family: "Dosis", Helvetica, Arial, sans-serif;
-    margin-left: 5rem;
     padding-left: 5rem;
     padding-top: 17%;
     text-align: left;
