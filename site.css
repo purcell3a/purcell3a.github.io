@@ -30,6 +30,15 @@
     border: 1px solid red;
 } */
 
+
+@media only screen and (max-width: 600px) {
+    #first-row{
+        background-image: url(img/neon-leaf.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+  }
 #first-row{
     background-image: url(img/neon-leaf.png);
     background-repeat: no-repeat;
@@ -179,9 +188,8 @@ h2{
     z-index: 1;
     top: 0;
     left: 0;
-    background-color:  #ffc0cb1c;
+    background-color: #d0cece0d;
     overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 20%;
 }
 
   /* The navigation menu links */
