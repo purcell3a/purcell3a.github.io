@@ -1,5 +1,7 @@
 #a-homenav{
-   size:inherit 
+    width: 5rem;
+    margin: 2rem;
+    margin-left: -1rem;
 }
 
 
