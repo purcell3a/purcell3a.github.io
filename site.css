@@ -229,7 +229,6 @@
 /* ====================  IN PROGRESS ============================= */
 .overlay {
     position: absolute;
-    top: 85%;
     background: rgb(89 85 85);
     width: 94%;
     transition: .5s ease;
