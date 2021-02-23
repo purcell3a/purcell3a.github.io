@@ -228,13 +228,13 @@
 }
 /* ====================  IN PROGRESS ============================= */
 .overlay {
-    position: absolute;
     background: rgb(89 85 85);
-    width: 94%;
     transition: .5s ease;
     opacity: 2;
     font-size: 20px;
     text-align: center;
+    width: inherit;
+    vertical-align: middle;
 }
   
   /* When you mouse over the container, fade in the overlay title */
