@@ -192,12 +192,6 @@
         color: #f1f1f1;
     }
     
-    #a-homenav{
-        width: 5rem;
-        margin: 2rem;
-        margin-left: -1rem;
-    }
-    
       /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
     @media screen and (max-height: 450px) {
         .sidenav {padding-top: 15px;}
@@ -425,11 +419,6 @@ h2{
     color: #f1f1f1;
 }
 
-#a-homenav{
-    width: 5rem;
-    margin: 2rem;
-    margin-left: -1rem;
-}
   /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
 @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
@@ -462,4 +451,10 @@ h2{
     padding: 2rem;
     margin-left: 6rem;
     margin-right: -5rem;
+}
+
+#a-homenav{
+    width: 5rem;
+    margin: 2rem;
+    margin-left: -1rem;
 }
