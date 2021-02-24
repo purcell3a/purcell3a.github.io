@@ -37,7 +37,7 @@
 
     #resume-img{
         filter: brightness(.9) blur(1px);
-        width: inherit;
+        width: 25rem;
         vertical-align: middle;
     }
 
@@ -49,6 +49,11 @@
         height:100%;
         /* background: #1d1d1d; */
         background-color: black;
+    }
+
+    .col-5 {
+        flex: 0 0 41.666667%;
+        width: 25rem;
     }
     /* #8a8a8a */
 
@@ -210,7 +215,7 @@
     }
 
     #me{
-        width: 70rem;
+        width: 25rem
     }
 }
 
