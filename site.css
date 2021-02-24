@@ -13,13 +13,12 @@
         font-size: 20px;
         text-align: center;
     }
-      
+
       /* When you mouse over the container, fade in the overlay title */
     #resume-img:hover .overlay {
         opacity: 1;
     }
-    
-    
+
     #youtube{
         margin:0;
         margin: 0;
@@ -27,34 +26,34 @@
         outline: inset;
         outline-color: aquamarine;
     }
-    
+
     #first-row{
         background: linear-gradient(to right, black, #02121f);
     }
-    
+
     #shoppies-img{
         width:inherit;
         vertical-align: middle;
         outline: inset;
         outline-color: aquamarine;
     }
-    
+
     #shoppies-a{
         width:inherit;
     }
-    
-    
+
+
     #resume-a{
         width: 70rem;
     }
-    
-    
+
+
     #resume-img{
         filter: brightness(.9) blur(1px);
         width: inherit;
         vertical-align: middle;
     }
-    
+
     /* ====================  GLOBAL ============================= */
     body, html{
         overflow-x: hidden;
@@ -65,14 +64,14 @@
         background-color: black;
     }
     /* #8a8a8a */
-    
+
     h1{
         width: 55rem;
         font-size: 8rem;
         font-weight: 500;
         transition: all 0.3s ease-out;
     }
-    
+
     h2{
         color: #8d8d8d;
         margin-top: 20px;
@@ -83,7 +82,7 @@
         -webkit-animation: myanim2 1s 1.8s backwards;
         animation: myanim2 1s 1.8s backwards;
     }
-    
+
     /* ====================  GRID: ROW & COL ============================= */
     .main {
         margin-left: 6rem;
@@ -91,7 +90,7 @@
         margin-right:-2rem;
         overflow-x: hidden; /* Disable horizontal scroll */
     }
-    
+
     .row{
         height: 100vh;
         display: grid;
@@ -99,21 +98,21 @@
         margin-right: -15px;
         margin-left: 6rem;
     }
-    
+
     #nav-col{
         border: 1px solid azure;
         background:transparent;
     }
-    
-    
+
+
     #img-col{
         width:50%;
         margin-top: 30%;
         z-index: 1;
-    
+
     }
-    
-    
+
+
     #title-col{
         font-family: "Dosis", Helvetica, Arial, sans-serif;
         padding-left: 5rem;
@@ -122,17 +121,17 @@
         /* transform: translate(0, 30%); */
         color:linear-gradient(#c6eaea, #dcdae2);
     }
-    
+
     #myVideo {
         position: fixed;
         right: 0;
         bottom: 0;
         min-width: 100%;
         min-height: 100%;
-    }  
-    
+    }
+
     /* ====================  HOME  ============================= */
-    
+
     /* #circle {
         margin-top: -20rem;
         margin-bottom: 0;
@@ -142,15 +141,15 @@
         background: #333533;
         border-radius: 50%;
     } */
-    
-    
+
+
     .hero-text {
         font-family: "Dosis", Helvetica, Arial, sans-serif;
         transform: translate(-100%, 50%);
         color:linear-gradient(#c6eaea, #dcdae2);
     }
-    
-    
+
+
     .flattbutton {
         color: #FFCED7;
         font-size: 13px;
@@ -164,7 +163,7 @@
         -webkit-animation: myanim2 1s 1.8s backwards;
         animation: myanim2 1s 1.8s backwards;
     }
-    
+
     /* ====================   SIDENAV  ============================= */
     /* The sidebar menu */
     .sidenav {
@@ -177,7 +176,7 @@
         background-color: #d0cece0d;
         overflow-x: hidden; /* Disable horizontal scroll */
     }
-    
+
       /* The navigation menu links */
     .sidenav a {
         padding: 6px 8px 6px 16px;
@@ -186,7 +185,7 @@
         color: #cacaca59;
         display: block;
     }
-    
+
       /* When you mouse over the navigation links, change their color */
     .sidenav a:hover {
         color: #f1f1f1;
@@ -196,12 +195,8 @@
         margin: 2rem;
         margin-left: -1rem;
     }
-      /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
-    @media screen and (max-height: 450px) {
-        .sidenav {padding-top: 15px;}
-        .sidenav a {font-size: 18px;}
-    }
-    
+
+
       /* ================================ ANCHORS ================== */
     
     #project-anchor{
@@ -426,11 +421,7 @@ h2{
     color: #f1f1f1;
 }
 
-  /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
-@media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
-}
+
 
   /* ================================ ANCHORS ================== */
 
