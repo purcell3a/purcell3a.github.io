@@ -153,13 +153,14 @@
 
 
     .flattbutton {
+        width: max-content;
         color: #FFCED7;
         font-size: 13px;
         letter-spacing: 4px;
         font-family: "Open Sans", sans-serif;
         text-decoration: none;
         padding: 10px 18px;
-        border: 1px solid #ffc107;
+        border: 1px solid #FFCED7;
         margin-top: 25px;
         float: left;
         -webkit-animation: myanim2 1s 1.8s backwards;
@@ -194,17 +195,18 @@
         color: #f1f1f1;
     }
     #a-homenav{
-        width: 4rem;
-        margin: 50%;
+        width: 5rem;
+        margin-top: .5rem;
         margin-left: -.7rem;
     }
 
     #sidenav-bottom{
-        margin: auto;
+        margin-bottom: -15rem;
     
     }
     #sidenav-middle{
-        margin: auto;
+        margin-top: 5rem;
+        margin-bottom: 5rem;
         
     }
 

@@ -197,6 +197,9 @@
     
       /* The navigation menu links */
     .sidenav a {
+        margin: 1rem;
+        margin-top: 0rem;
+        margin-bottom: .5rem;
         text-decoration: none;
         font-size: 2.5rem;
         color: #cacaca59;
@@ -209,7 +212,7 @@
     }
     
     #sidenav-bottom{
-        margin: auto;
+        margin-bottom: -15rem;
     
     }
     #sidenav-middle{
@@ -245,8 +248,8 @@
     }
     
     #a-homenav{
+        margin-top: .5rem;
         width: 5rem;
-        margin: 2rem;
         margin-left: -1rem;
     }
     
