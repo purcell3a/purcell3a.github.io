@@ -229,6 +229,9 @@
         width: 70rem;
     }
 }
+
+
+@media only screen and (min-width: 600px) {
 /* ====================  IN PROGRESS ============================= */
 .overlay {
     background: rgb(89 85 85);
@@ -459,4 +462,4 @@ h2{
 
 #me{
     width: inherit;
-}
+}}
