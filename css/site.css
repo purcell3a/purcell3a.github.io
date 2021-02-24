@@ -170,6 +170,8 @@
     /* ====================   SIDENAV  ============================= */
     /* The sidebar menu */
     .sidenav {
+        display: flex;
+        flex-wrap: wrap;
         height: 100%;
         width: 15%;
         position: fixed;
@@ -182,7 +184,6 @@
 
       /* The navigation menu links */
     .sidenav a {
-        padding: 6px 8px 6px 16px;
         text-decoration: none;
         font-size: 3rem;;
         color: #cacaca59;
@@ -197,6 +198,15 @@
         width: 4rem;
         margin: 50%;
         margin-left: -.7rem;
+    }
+
+    #sidenav-bottom{
+        margin: auto;
+    
+    }
+    #sidenav-middle{
+        margin: auto;
+        
     }
 
 
@@ -418,8 +428,10 @@ h2{
 /* ====================   SIDENAV  ============================= */
 /* The sidebar menu */
 .sidenav {
+    display: flex;
+    flex-wrap: wrap;
     height: 100%;
-    width: 6rem;
+    width: 7rem;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -430,7 +442,6 @@ h2{
 
   /* The navigation menu links */
 .sidenav a {
-    padding: 6px 8px 6px 16px;
     text-decoration: none;
     font-size: 2.5rem;
     color: #cacaca59;
@@ -442,8 +453,14 @@ h2{
     color: #f1f1f1;
 }
 
+#sidenav-bottom{
+    margin: auto;
 
-
+}
+#sidenav-middle{
+    margin: auto;
+    
+}
   /* ================================ ANCHORS ================== */
 
 #project-anchor{
