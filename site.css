@@ -457,3 +457,7 @@ h2{
     margin: 2rem;
     margin-left: -1rem;
 }
+
+#me{
+    width: inherit;
+}
