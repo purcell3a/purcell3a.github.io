@@ -14,19 +14,6 @@
         text-align: center;
     }
 
-      /* When you mouse over the container, fade in the overlay title */
-    #resume-img:hover .overlay {
-        opacity: 1;
-    }
-
-    #youtube{
-        margin:0;
-        margin: 0;
-        width:inherit;
-        outline: inset;
-        outline-color: aquamarine;
-    }
-
     #first-row{
         background: linear-gradient(to right, black, #02121f);
     }
@@ -462,4 +449,5 @@ h2{
 
 #me{
     width: inherit;
-}}
+}
+}
