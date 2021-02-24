@@ -45,7 +45,7 @@
     
     
     #resume-a{
-        width: inherit;
+        width: 70rem;
     }
     
     
@@ -94,7 +94,7 @@
     
     .row{
         height: 100vh;
-        display: flex;
+        display: grid;
         flex-wrap: wrap;
         margin-right: -15px;
         margin-left: 6rem;
@@ -228,6 +228,10 @@
         padding: 2rem;
         margin-left: 6rem;
         margin-right: -5rem;
+    }
+
+    #me{
+        width: 70rem;
     }
 }
 /* ====================  IN PROGRESS ============================= */
