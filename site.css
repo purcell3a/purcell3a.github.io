@@ -53,7 +53,6 @@
     /* #8a8a8a */
 
     h1{
-        width: 55rem;
         font-size: 8rem;
         font-weight: 500;
         transition: all 0.3s ease-out;
@@ -64,6 +63,7 @@
         margin-top: 20px;
         font-weight: normal;
         font-size: 11px;
+        width: max-content;
         font-family: "Open Sans", sans-serif;
         letter-spacing: 3px;
         -webkit-animation: myanim2 1s 1.8s backwards;
@@ -72,9 +72,6 @@
 
     /* ====================  GRID: ROW & COL ============================= */
     .main {
-        margin-left: 6rem;
-        padding: 1rem;
-        margin-right:-2rem;
         overflow-x: hidden; /* Disable horizontal scroll */
     }
 
@@ -168,7 +165,7 @@
     .sidenav a {
         padding: 6px 8px 6px 16px;
         text-decoration: none;
-        font-size: 8rem;
+        font-size: 3rem;;
         color: #cacaca59;
         display: block;
     }
@@ -178,7 +175,7 @@
         color: #f1f1f1;
     }
     #a-homenav{
-        width: 8rem;
+        width: 3rem;;
         margin: 2rem;
         margin-left: -1rem;
     }
@@ -371,6 +368,7 @@ h2{
 
 
 .flattbutton{
+    min-width: max-content;
     color: pink;
     font-size: 13px;
     letter-spacing: 4px;
