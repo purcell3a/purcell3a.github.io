@@ -198,8 +198,11 @@
         color: #cacaca59;
         display: block; */
     }
+    .sidenav #myLinks {
+        display: none;
+      }
 
-    .topnav a.icon {
+    .sidenav a.icon {
         background: black;
         display: block;
         position: absolute;
