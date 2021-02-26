@@ -204,7 +204,7 @@
         display: block; */
     }
     .sidenav #myLinks {
-        display: flex;
+        display: block;
       }
 
     .sidenav a.icon {
