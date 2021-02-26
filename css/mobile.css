@@ -170,7 +170,11 @@
     /* ====================   SIDENAV  ============================= */
     /* The sidebar menu */
     .sidenav {
-        display: flex;
+
+        overflow: hidden;
+        background-color: #333;
+        position: relative;
+        /* display: flex;
         flex-direction: row;
         height: 10%;
         width: -webkit-fill-available;
@@ -178,21 +182,42 @@
         z-index: 1;
         top: 0;
         background-color: #d0cece0d;
-        overflow-x: hidden;
+        overflow-x: hidden; */
     }
 
       /* The navigation menu links */
     .sidenav a {
+
+        color: white;
+        padding: 14px 16px;
         text-decoration: none;
+        font-size: 17px;
+        display: block;
+        /* text-decoration: none;
         font-size: 3rem;;
         color: #cacaca59;
+        display: block; */
+    }
+
+    .topnav a.icon {
+        background: black;
         display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
     }
 
       /* When you mouse over the navigation links, change their color */
     .sidenav a:hover {
-        color: #f1f1f1;
+        background-color: #ddd;
+        color: black;
+        /* color: #f1f1f1; */
     }
+
+    .active {
+        background-color: #4CAF50;
+        color: white;
+      }
     #a-homenav{
         width: 5rem;
         margin-top: .5rem;
