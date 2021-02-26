@@ -117,8 +117,6 @@
 
     #title-col{
         font-family: "Dosis", Helvetica, Arial, sans-serif;
-        padding-left: 5rem;
-        padding-top: 17%;
         text-align: left;
         /* transform: translate(0, 30%); */
         color:linear-gradient(#c6eaea, #dcdae2);
@@ -168,11 +166,18 @@
     }
 
     /* ====================   SIDENAV  ============================= */
+
+    fa {
+        display: inline-block;
+        font: normal normal normal 14px/1 FontAwesome;
+        font-size: xx-large;
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased;
+    }
     /* The sidebar menu */
     .sidenav {
 
         overflow: hidden;
-        background-color: #333;
         position: relative;
         /* display: flex;
         flex-direction: row;
@@ -199,11 +204,11 @@
         display: block; */
     }
     .sidenav #myLinks {
-        display: none;
+        display: flex;
       }
 
     .sidenav a.icon {
-        background: black;
+        background:transparent;
         display: block;
         position: absolute;
         right: 0;
