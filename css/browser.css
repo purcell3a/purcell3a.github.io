@@ -221,7 +221,11 @@
     }
 
     #contact-me{
-        display:block
+        display:flex;
+    }
+
+    #contact-me {
+        color:#9e8fa5;
     }
       /* ================================ ANCHORS ================== */
     
