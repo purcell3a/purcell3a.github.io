@@ -219,6 +219,10 @@
         margin: auto;
         
     }
+
+    #contact-me{
+        display:block
+    }
       /* ================================ ANCHORS ================== */
     
     #project-anchor{
