@@ -203,7 +203,6 @@
         text-decoration: none;
         font-size: 2.5rem;
         color: #cacaca59;
-        display: block;
     }
     
       /* When you mouse over the navigation links, change their color */
@@ -233,6 +232,7 @@
     }
     .fa {
         display: none;
+        color: transparent;
     }
       /* ================================ ANCHORS ================== */
     
