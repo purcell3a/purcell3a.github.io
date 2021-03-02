@@ -272,6 +272,13 @@
         width: inherit;
     }
     
+    .project-link-container{
+        display:flex
+    }
+    .project-links{
+    font-size: 2rem;
+    color: #9e8fa5;
+    }
     
     }
     
