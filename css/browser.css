@@ -275,9 +275,9 @@
     .project-link-container{
         display:flex
     }
-    .project-links{
-    font-size: 2rem;
-    color: #9e8fa5;
+    .project-link-container a{
+        font-size: 2rem;
+        color: #9e8fa5;
     }
     
     }
