@@ -270,6 +270,7 @@
     
     #me{
         width: inherit;
+        border: 3px solid aquamarine;
     }
     
     .project-link-container{
