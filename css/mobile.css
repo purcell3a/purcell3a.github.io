@@ -277,4 +277,12 @@
     #me{
         width: 25rem
     }
+
+    .project-link-container{
+        display:flex
+    }
+    .project-links{
+    font-size: 2rem;
+    color: #9e8fa5;
+    }
 }
