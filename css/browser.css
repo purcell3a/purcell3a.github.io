@@ -31,6 +31,13 @@
         background-position: center;
         background-size: cover; */
     }
+
+    #Acclivity-img{
+        width:inherit;
+        vertical-align: middle;
+        outline: inset;
+        outline-color: aquamarine;
+    }
     
     #shoppies-img{
         width:inherit;
