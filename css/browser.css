@@ -32,6 +32,9 @@
         background-size: cover; */
     }
 
+    #Acclivity-a{
+       width:inherit; 
+    }
     #Acclivity-img{
         width:inherit;
         vertical-align: middle;
