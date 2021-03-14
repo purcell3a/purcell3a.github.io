@@ -7,6 +7,14 @@
     width: 100vw;
 }
 
+.card-header {
+    font-size: large;
+    color: #bceae6cf;
+    text-align: center;
+    margin-bottom: 0;
+    background-color: #0c0b0c85;
+}
+
 .card border-light mb-3{
     background:transparent;
 }
@@ -210,6 +218,9 @@
     }
     
     /* ====================  GRID: ROW & COL ============================= */
+    .about-main{
+        overflow-x: hidden; /* Disable horizontal scroll */
+    }
     .main {
         padding: 3rem;
         overflow-x: hidden; /* Disable horizontal scroll */
