@@ -185,8 +185,7 @@
     
     /* ====================  GRID: ROW & COL ============================= */
     .main {
-        padding: 1rem;
-        margin-right:-2rem;
+        padding: 3rem;
         overflow-x: hidden; /* Disable horizontal scroll */
     }
     
