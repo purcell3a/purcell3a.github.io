@@ -7,6 +7,10 @@
     width: 100vw;
 }
 
+.card border-light mb-3{
+    background:transparent;
+}
+
 .card {
     position: relative;
     display: -ms-flexbox;
