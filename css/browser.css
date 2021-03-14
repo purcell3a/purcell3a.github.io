@@ -137,9 +137,9 @@
     
     #title{
         margin: auto;
+        width: 60%;
+        padding: 10px;
         font-family: "Dosis", Helvetica, Arial, sans-serif;
-        padding-left: 5rem;
-        padding-top: 17%;
         text-align: center;
         /* transform: translate(0, 30%); */
         color:linear-gradient(#c6eaea, #dcdae2);
@@ -234,6 +234,9 @@
 
 
     #contact-me{
+        margin: auto;
+        width: 60%;
+        padding: 10px;
         display:flex;
     }
 
