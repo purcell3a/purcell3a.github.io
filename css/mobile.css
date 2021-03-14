@@ -176,18 +176,8 @@
     }
     /* The sidebar menu */
     .sidenav {
-
         overflow: hidden;
         position: relative;
-        /* display: flex;
-        flex-direction: row;
-        height: 10%;
-        width: -webkit-fill-available;
-        position: fixed;
-        z-index: 1;
-        top: 0;
-        background-color: #d0cece0d;
-        overflow-x: hidden; */
     }
 
       /* The navigation menu links */
