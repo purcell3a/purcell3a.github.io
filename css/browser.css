@@ -1,8 +1,6 @@
 
 @media only screen and (min-width: 600px) {
 
-
-
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 
 .container{
@@ -17,7 +15,7 @@
     flex-direction: column;
     min-width: 0;
     word-wrap: break-word;
-    background-color: #ffffff0d;
+    background-color: #ffffff14;
     background-clip: border-box;
     border: 1px solid rgba(0,0,0,.125);
     border-radius: .25rem;
