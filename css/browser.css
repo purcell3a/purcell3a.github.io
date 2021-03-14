@@ -88,9 +88,13 @@
   color: #f4f4f4;
 }
 
+.navbar-nav {
+    padding-left: 15%;
+}
+
   .navbar {
-    width: 100%;
-    padding-left: 120px;
+    width: 50%;
+    margin: auto;
   }
 
   .text-white {
@@ -100,6 +104,13 @@
 .social{
     display: flex;
     flex-direction: row;
+    justify-content: center;
+}
+
+.social a{
+    font-size: 1.5rem;
+    color: #926f7a;
+    margin: 1rem;
 }
 
 
