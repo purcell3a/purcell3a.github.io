@@ -43,7 +43,7 @@
 
 .hero {
   height: 100vh;
-  background: linear-gradient(to bottom left, #77c4e3, #8176b5);
+  background: transparent;
   background-size: cover;
   background-position: center;
 }
@@ -82,20 +82,10 @@
     font-family: "Open Sans", sans-serif;
   }
 
-
-.social .fa {
-    font-size: 20px;
-    min-width: 44px;
-    line-height: 36px;
-    color: #f4f4f4;
-  }
-
- .social .fa:hover {
-    cursor: pointer;
-    color: #f4f4f4;
-    opacity: 0.7;
-    text-decoration: none;
-  }
+.social{
+    display: flex;
+    flex-direction: row;
+}
 
 
     /* ====================  IN PROGRESS ============================= */
