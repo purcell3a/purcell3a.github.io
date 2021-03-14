@@ -42,7 +42,7 @@
 }
 
 .hero {
-  height: 660px;
+  height: 100vh;
   background: linear-gradient(to bottom left, #77c4e3, #8176b5);
   background-size: cover;
   background-position: center;
@@ -73,62 +73,6 @@
   color: #f4f4f4;
 }
 
-/* 
-=================================
---------- Media Query -----------
-===============================*/
-
-/*==============================
----------- Mobile View  --------
-==============================*/
-@media (min-width: 350px) and (max-width: 1024px) {
-  .navbar {
-  padding-top: 20px;
-}
-  
-  .social {
-    text-align: center;
-  }
-  .social {
-    .fa {
-      color: #807cb9 !important;
-    }
-    .fa-facebook-square {
-      margin-left: 0 !important;
-    }
-  }
-  .navbar-collapse {
-    background-color: #fff;
-    padding: 20px;
-    z-index: 55;
-  }
-
-  nav {
-    ul li > a {
-      color: #807cb9 !important;
-      &:hover {
-        opacity: 0.8;
-      }
-    }
-  }
-}
-
-/* Mobile -btn */
-.navbar-dark .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(255, 255, 255)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
-}
-.navbar-dark .navbar-toggler {
-  border-color: transparent !important;
-  &:focus {
-    border-color: transparent !important;
-  }
-}
-
-/* ========================
--------- Desktop ----------
-=========================*/
-
-@media (min-width: 1200px) {
   .navbar {
     width: 1140px;
     padding-left: 120px;
@@ -306,12 +250,12 @@
     } */
     
     
-    .hero-text {
+    /* .hero-text {
         font-family: "Dosis", Helvetica, Arial, sans-serif;
         transform: translate(-100%, 50%);
         color:linear-gradient(#c6eaea, #dcdae2);
     }
-    
+     */
     
     .flattbutton{
         min-width: max-content;
