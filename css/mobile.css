@@ -115,9 +115,9 @@
     }
 
 
-    #title-col{
+    #title{
+        margin: auto;
         font-family: "Dosis", Helvetica, Arial, sans-serif;
-        text-align: left;
         /* transform: translate(0, 30%); */
         color:linear-gradient(#c6eaea, #dcdae2);
     }

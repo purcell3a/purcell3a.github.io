@@ -110,7 +110,6 @@
     
     /* ====================  GRID: ROW & COL ============================= */
     .main {
-        margin-left: 6rem;
         padding: 1rem;
         margin-right:-2rem;
         overflow-x: hidden; /* Disable horizontal scroll */
@@ -121,7 +120,6 @@
         display: flex;
         flex-wrap: wrap;
         margin-right: -15px;
-        margin-left: 6rem;
     }
     
     #nav-col{
@@ -245,8 +243,7 @@
     }
 
     .fa {
-        display: none;
-        color: transparent;
+        color: white;
     }
       /* ================================ ANCHORS ================== */
     
