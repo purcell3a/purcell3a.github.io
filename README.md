@@ -1,10 +1,19 @@
 # Personal Website
 
-Still in progress!
+<!-- ![results](static/img/landingpage.png) -->
+
+Still in progress - I play with this sometimes in the evening or on sunday afternoons. 
 
 
-<!-- ## Acknowledgments
+## Built With
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc -->
+* HTML
+* CSS
+* Javascript
+* Bootstrap
+
+
+## Acknowledgements
+
+* None yet :)
+

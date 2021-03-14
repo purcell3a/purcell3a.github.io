@@ -6,12 +6,12 @@
 
 /* from: https://davidwalsh.name/css-flip  */
 
-section {
-  &.custom {
-    .up {
+
+
+section .up {
       color: #55DD11;
     }
-    .card {
+ section .card {
       text-align: center;
       color: #FFFFFF;
       width: 100%;
@@ -21,17 +21,17 @@ section {
       position: relative;
       background-color: white;
     }
-    .flipper {
+   section .flipper {
       padding-left: 0px;
       padding-right: 0px;
       margin-bottom: 10px;
       perspective: 1000px;
     }
     /* flip the pane when hovered */
-    .flipper.flip .card {
+ section   .flipper.flip .card {
       transform: rotateY(180deg);
     }
-    .front,
+ section   .front,
     .back {
       width: 100%;
       padding: 5px;
@@ -41,18 +41,18 @@ section {
       left: 0;
     }
     /* front pane, placed above back */
-    .front {
+ section   .front {
       z-index: 2;
       /* for firefox 31 */
       transform: rotateY(0deg);
       height: 100%;
     }
     /* back, initially hidden pane */
-    .back {
+section    .back {
       transform: rotateY(180deg);
       height: 100%;
     }
-    .goback {
+ section   .goback {
       position: absolute;
       bottom: 0px;
       padding-left: 20px;
@@ -60,8 +60,7 @@ section {
       text-decoration: underline;
       cursor: pointer;
     }
-  }
-}
+
 
 
 
