@@ -35,7 +35,6 @@
 
 
     #resume-img{
-        filter: brightness(.9) blur(1px);
         width: 25rem;
         vertical-align: middle;
     }

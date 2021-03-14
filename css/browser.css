@@ -60,7 +60,6 @@
     
     
     #resume-img{
-        filter: brightness(.9) blur(1px);
         width: inherit;
         vertical-align: middle;
     }
