@@ -52,7 +52,7 @@
 .hero-heading {
   color: #fff;
   position: absolute;
-  top: 220px;
+  top: 40%;
   left: 0;
   right: 0;
   margin: auto;
@@ -61,7 +61,6 @@
   font-weight: 300;
   font-family: "Roboto Slab", sans-serif;
   padding: 0 8px;
-  max-width: 300px;
   width: 100%;
   z-index: 5;
 }
@@ -168,7 +167,6 @@
 
     
     h1{
-        width: 55rem;
         font-size: 8rem;
         font-weight: 500;
         transition: all 0.3s ease-out;
