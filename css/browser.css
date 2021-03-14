@@ -74,14 +74,14 @@
 }
 
   .navbar {
-    width: 1140px;
+    width: 100%;
     padding-left: 120px;
   }
 
   .text-white {
     font-family: "Open Sans", sans-serif;
   }
-}
+
 
 .social .fa {
     font-size: 20px;
