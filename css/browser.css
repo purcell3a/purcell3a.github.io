@@ -83,25 +83,24 @@
   }
 }
 
-.social {
-  .fa {
+.social .fa {
     font-size: 20px;
     min-width: 44px;
     line-height: 36px;
     color: #f4f4f4;
   }
 
-  .fa-facebook-square {
+ .social .fa-facebook-square {
     margin-left: 50px;
   }
 
-  .fa:hover {
+ .social .fa:hover {
     cursor: pointer;
     color: #f4f4f4;
     opacity: 0.7;
     text-decoration: none;
   }
-}
+
 
     /* ====================  IN PROGRESS ============================= */
     .overlay {
