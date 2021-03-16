@@ -179,6 +179,7 @@
         text-align: center;
         width: inherit;
         vertical-align: middle;
+        max-width: 70rem;
     }
       
       /* When you mouse over the container, fade in the overlay title */
@@ -222,6 +223,7 @@
     #resume-img{
         width: inherit;
         vertical-align: middle;
+        max-width: 70rem;
     }
     
     /* ====================  GLOBAL ============================= */
@@ -436,6 +438,7 @@
     
     #me{
         width: inherit;
+        max-width: 70rem;
         border: 3px solid aquamarine;
     }
     

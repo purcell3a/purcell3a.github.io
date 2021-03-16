@@ -3,85 +3,50 @@
 @media only screen and (max-width: 599px) {
 
 
+    /* ================================ INDEX.HTML =============================== */
 
-    .overlay {
-        position: absolute;
-        top: 85%;
-        background: rgb(89 85 85);
-        width: 94%;
-        transition: .5s ease;
-        opacity: 2;
-        font-size: 20px;
-        text-align: center;
+    .navbar{
+        position:fixed;
+        width:inherit
+    }
+    .navbar-toggler{
+        width: 10%;
+        margin-left: 80%;
     }
 
-    #first-row{
-        background: transparent;
-    }
-
-    #shoppies-img{
-        width:inherit;
-        vertical-align: middle;
-        outline: inset;
-        outline-color: aquamarine;
-    }
-
-    #shoppies-a{
-        width:inherit;
+    .hero {
+        height: 100vh;
     }
 
 
-    #resume-a{
-        width: 70rem;
+    .container{
+        height: 100vh;
     }
 
 
-    #resume-img{
-        width: 25rem;
-        vertical-align: middle;
+    .hero-heading{
+        text-align:center;
+        width: 50%;
+        margin: auto;
+        margin-top:40%
     }
 
-    /* ====================  GLOBAL ============================= */
-    body, html{
-        overflow-x: hidden;
-        overflow-y: hidden;
-        color:#ebe2e2;
-        height:100%;
-        /* background: #1d1d1d; */
-        background: linear-gradient(-45deg, #380f02, #0c0a0b, #101b1f, #01141f);
-        background-size: 400% 400%;
-        animation: gradient 15s ease infinite;
-    }
 
-      @keyframes gradient {
-          0% {
-              background-position: 0% 50%;
-          }
-          50% {
-              background-position: 100% 50%;
-          }
-          100% {
-              background-position: 0% 50%;
-          }
-      }
-
-    .col-5 {
-        flex: 0 0 41.666667%;
-        width: 100vh;
-    }
-    /* #8a8a8a */
-
-    h1{
-        font-size: 8rem;
-        font-weight: 500;
+    h1 {
+        font-size: 7rem;
+        font-weight: 400;
         transition: all 0.3s ease-out;
     }
 
-    h2{
+
+    h2 {
+        text-align:center;
         color: #8d8d8d;
-        margin-top: 20px;
+        margin:auto;
+        margin-top: 1rem;
+        margin-bottom:1rem;
         font-weight: normal;
-        font-size: 11px;
+        font-size: 1.5rem;
         width: max-content;
         font-family: "Open Sans", sans-serif;
         letter-spacing: 3px;
@@ -89,196 +54,16 @@
         animation: myanim2 1s 1.8s backwards;
     }
 
-    /* ====================  GRID: ROW & COL ============================= */
-    .main {
-        overflow-x: hidden; /* Disable horizontal scroll */
+    .social{
+        text-align:center;
     }
 
-    .row{
-        height: 100vh;
-        display: grid;
-        flex-wrap: wrap;
-        margin-right: -15px;
-        margin-left: 6rem;
-    }
-
-    #nav-col{
-        border: 1px solid azure;
-        background:transparent;
-    }
-
-
-    #img-col{
-        width:50%;
-        margin-top: 30%;
-        z-index: 1;
-
-    }
-
-
-    #title{
-        margin: auto;
-        font-family: "Dosis", Helvetica, Arial, sans-serif;
-        /* transform: translate(0, 30%); */
-        color:linear-gradient(#c6eaea, #dcdae2);
-    }
-
-    #myVideo {
-        position: fixed;
-        right: 0;
-        bottom: 0;
-        min-width: 100%;
-        min-height: 100%;
-    }
-
-    /* ====================  HOME  ============================= */
-
-    /* #circle {
-        margin-top: -20rem;
-        margin-bottom: 0;
-        margin-left: 10%;
-        width: 50rem;
-        height: 50rem;
-        background: #333533;
-        border-radius: 50%;
-    } */
-
-
-    .hero-text {
-        font-family: "Dosis", Helvetica, Arial, sans-serif;
-        transform: translate(-100%, 50%);
-        color:linear-gradient(#c6eaea, #dcdae2);
-    }
-
-
-    .flattbutton {
-        width: max-content;
-        color: #FFCED7;
-        font-size: 13px;
-        letter-spacing: 4px;
-        font-family: "Open Sans", sans-serif;
+    .social a{
+        color: #9a6e8d;
+        font-size: 1.5rem;
+        margin: 1rem;
         text-decoration: none;
-        padding: 10px 18px;
-        border: 1px solid #FFCED7;
-        margin-top: 25px;
-        float: left;
-        -webkit-animation: myanim2 1s 1.8s backwards;
-        animation: myanim2 1s 1.8s backwards;
     }
 
-    /* ====================   SIDENAV  ============================= */
-
-    .fa {
-        display: inline-block;
-        font: normal normal normal 14px/1 FontAwesome;
-        font-size: xx-large;
-        text-rendering: auto;
-        -webkit-font-smoothing: antialiased;
-    }
-    /* The sidebar menu */
-    .sidenav {
-        overflow: hidden;
-        position: relative;
-    }
-
-      /* The navigation menu links */
-    .sidenav a {
-
-        color: white;
-        padding: 14px 16px;
-        text-decoration: none;
-        font-size: 17px;
-        display: block;
-        /* text-decoration: none;
-        font-size: 3rem;;
-        color: #cacaca59;
-        display: block; */
-    }
-    .sidenav #myLinks {
-        display: block;
-        text-align: right;
-      }
-
-    .sidenav a.icon {
-        background:transparent;
-        display: block;
-        position: absolute;
-        right: 0;
-        top: 0;
-    }
-
-      /* When you mouse over the navigation links, change their color */
-    .sidenav a:hover {
-        color:  #ddd;
-        /* color: #f1f1f1; */
-    }
-
-    .active {
-        background-color: #4CAF50;
-        color: white;
-      }
-    #a-homenav{
-        width: 5rem;
-        margin-top: .5rem;
-        margin-left: -.7rem;
-    }
-
-    #sidenav-bottom{
-        margin-bottom: -15rem;
-    
-    }
-    #sidenav-middle{
-        margin-top: 5rem;
-        margin-bottom: 5rem;
-        
-    }
-
-    #contact-me{
-        display: flex;
-    }
-
-    #contact-me a{
-        font-size: 2rem;
-        color: #9e8fa5;
-        display: flex;
-    }
-
-      /* ================================ ANCHORS ================== */
-    
-    #project-anchor{
-        padding: 2rem;
-        padding-top: 0;
-        margin:auto;
-    
-    }
-    
-    #stack-anchor{
-        padding: 2rem;
-        margin-right: -5rem;
-    }
-    
-    #about-anchor{
-        padding: 2rem;
-        margin-right: -5rem;
-    }
-    
-    
-    #contact-anchor{
-        padding: 2rem;
-        margin-right: -5rem;
-    }
-
-    #me{
-        width: 25rem;
-        border: 3px solid aquamarine;
-    }
-
-    .project-link-container{
-        display:flex
-    }
-    .project-link-container a{
-        font-size: 2rem;
-        color: #9e8fa5;
-        padding-right: 1.5rem;
-    }
+   
 }
