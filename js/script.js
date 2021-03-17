@@ -9,6 +9,18 @@
 }
 
 
+        function gfgMenu() { 
+            const GFG = document.querySelector('.navbar-nav'); 
+  
+            if (GFG.style.display === "none") { 
+                GFG.style.display = "block"; 
+            } 
+            else { 
+                GFG.style.display = "none"; 
+            } 
+        } 
+
+
 /* flip the cards in about me*/
 
 $(".flipper").click(function() {
