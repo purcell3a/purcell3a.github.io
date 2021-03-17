@@ -1,22 +1,14 @@
 /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
-  function myFunction() {
-  var x = document.getElementById("myLinks");
-  if (x.style.display === "block") {
-    x.style.display = "none";
-  } else {
-    x.style.display = "block";
-  }
-}
 
 
-        function gfgMenu() { 
-            const GFG = document.querySelector('.navbar-nav'); 
+        function myFunction() { 
+            var x = document.querySelector('.navbar-nav'); 
   
-            if (GFG.style.display === "none") { 
-                GFG.style.display = "block"; 
+            if (x.style.display === "none") { 
+                x.style.display = "block"; 
             } 
             else { 
-                GFG.style.display = "none"; 
+                x.style.display = "none"; 
             } 
         } 
 
