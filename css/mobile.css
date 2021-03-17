@@ -11,7 +11,6 @@
 }
     body, html{
     overflow-x: hidden;
-    overflow-y: hidden;
     color:#ebe2e2;
     height:100%;
     background: linear-gradient(-45deg, #380f02, #0c0a0b, #101b1f, #01141f);
