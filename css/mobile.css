@@ -120,21 +120,22 @@
     border-radius: .25rem;
 }
 
-    #about-me{
-        position: relative;
-        display: -ms-flexbox;
-        display: flex;
-        max-width: 80%;
-        -ms-flex-direction: column;
-        height: 40%;
-        margin: 10%;
-        word-wrap: break-word;
-        background-color: #ffffff14;
-        background-clip: border-box;
-        border: 1px solid rgba(0,0,0,.125);
-        border-radius: .25rem;
-        margin-top: 30%;
-    }
+#about-me{
+    padding: 0rem;
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    max-width: 80%;
+    -ms-flex-direction: column;
+    height: 40%;
+    margin: 10%;
+    word-wrap: break-word;
+    background-color: #ffffff14;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    margin-top: 30%;
+}
 
 /* ====================  IN PROGRESS ============================= */
 
