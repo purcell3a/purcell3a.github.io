@@ -31,10 +31,14 @@
           }
       }
 
-    .navbar{
-        position:absolute;
-        width:inherit
+    .navbar {
+        background: #0c0d0f;
+        z-index: 1;
+        width: -webkit-fill-available;
+        margin: auto;
     }
+
+
     .navbar-toggler{
         margin-left: 80%;
     }
