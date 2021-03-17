@@ -35,8 +35,8 @@
         background: #0c0d0f;
         z-index: 1;
         width: -webkit-fill-available;
-        width:inherit;
         margin-left: -1rem;
+        position:absolute;
     }
 
     .navbar-toggler{
@@ -94,8 +94,6 @@
     #stack-anchor {
         display: flex;
         flex-direction: column-reverse;
-        padding: 1rem;
-        margin-right: -5rem;
     }
 
     .col-5 {
