@@ -29,7 +29,7 @@
       }
 
     .navbar{
-        position:relative;
+        position:absolute;
         width:inherit
     }
     .navbar-toggler{
