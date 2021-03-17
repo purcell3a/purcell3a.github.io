@@ -1,4 +1,5 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 
 @media only screen and (max-width: 599px) {
 
@@ -88,5 +89,336 @@
         text-decoration: none;
     }
 
-   
+  /* ====================  IN PROGRESS ============================= */
+
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card {
+    background-color: transparent;
+    width: 35rem;
+    height: 30rem;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  background-color: #ffffff14;
+  color: #bceae6cf;
+}
+
+/* Style the back side */
+.flip-card-back {
+  background-color: ##ffffff14;
+  color: #bceae6cf;
+  transform: rotateY(180deg);
+}
+
+/* ====================  IN PROGRESS ============================= */
+.container{
+    width: 100vw;
+}
+
+.card-header {
+    font-size: large;
+    color: #bceae6cf;
+    text-align: center;
+    margin-bottom: 0;
+    background-color: #0c0b0c85;
+}
+
+.card border-light mb-3{
+    background:transparent;
+}
+
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #ffffff14;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+}
+
+.nav-link {
+  font-family: Roboto, Helvetica Neue, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+  min-width: 88px;
+  line-height: 36px;
+  padding: 0 16px;
+  border-radius: 2px;
+  text-align: center;
+}
+
+.nav-link:hover {
+  background: rgba(255, 255, 255, 0.1);
+  box-sizing: border-box;
+  position: relative;
+  color: #f4f4f4;
+  box-sizing: border-box;
+  position: relative;
+  cursor: pointer;
+  outline: 0;
+  border: none;
+}
+
+.navbar-brand {
+  font-family: Roboto, Helvetica Neue, sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  color: #f4f4f4;
+  padding: 0 16px;
+}
+
+.hero {
+  height: 100vh;
+  background: transparent;
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-heading {
+  color: #fff;
+  position: absolute;
+  top: 40%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  text-align: center;
+  line-height: 1.3;
+  font-weight: 300;
+  font-family: "Roboto Slab", sans-serif;
+  padding: 0 8px;
+  width: 50%;
+  z-index: 5;
+}
+
+.hero-sub-title {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.hero-sub-title > a:hover {
+  color: #f4f4f4;
+}
+
+.navbar-nav {
+    padding-left: 15%;
+}
+
+  .navbar {
+    width: 50%;
+    margin: auto;
+  }
+
+  .text-white {
+    font-family: "Open Sans", sans-serif;
+  }
+
+
+  
+    .overlay {
+        background: rgb(89 85 85);
+        transition: .5s ease;
+        opacity: 2;
+        font-size: 20px;
+        text-align: center;
+        width: inherit;
+        vertical-align: middle;
+        max-width: 70rem;
+    }
+      
+      /* When you mouse over the container, fade in the overlay title */
+    #resume-img:hover .overlay {
+        opacity: 1;
+    }
+    
+    
+    #first-row{
+        background: transparent;
+    }
+
+    #Acclivity-a{
+       width:inherit; 
+    }
+
+    #Acclivity-img{
+        width:inherit;
+        vertical-align: middle;
+        outline: inset;
+        outline-color: aquamarine;
+    }
+    
+    #shoppies-img{
+        width:inherit;
+        vertical-align: middle;
+        outline: inset;
+        outline-color: aquamarine;
+    }
+    
+    #shoppies-a{
+        width:inherit;
+    }
+    
+    
+    #resume-a{
+        width: inherit;
+    }
+    
+    
+    #resume-img{
+        width: inherit;
+        vertical-align: middle;
+        max-width: 70rem;
+    }
+    
+
+    /* ====================  GRID: ROW & COL ============================= */
+    .about-main{
+        overflow-x: hidden; /* Disable horizontal scroll */
+    }
+    .main {
+        padding: 3rem;
+        overflow-x: hidden; /* Disable horizontal scroll */
+    }
+    
+
+    
+    #nav-col{
+        border: 1px solid azure;
+        background:transparent;
+    }
+    
+    
+    #img-col{
+        width:50%;
+        margin-top: 30%;
+        z-index: 1;
+    
+    }
+    
+    
+    #title{
+        margin: auto;
+        width: 60%;
+        padding: 10px;
+        font-family: "Dosis", Helvetica, Arial, sans-serif;
+        text-align: center;
+        color:linear-gradient(#c6eaea, #dcdae2);
+    }
+    
+ 
+
+
+.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+      /* When you mouse over the navigation links, change their color */
+    .sidenav a:hover {
+        color:  #ddd;
+        /* color: #f1f1f1; */
+    }
+      /* When you mouse over the navigation links, change their color */
+    .sidenav a:hover {
+        color: #f1f1f1;
+    }
+
+
+    #contact-me{
+        margin: auto;
+        width: 60%;
+        padding: 10px;
+        display:flex;
+    }
+
+    #contact-me a{
+        font-size: 2.5rem;
+        color:#9e8fa5;
+    }
+
+    .fa {
+        color: white;
+    }
+      /* ================================ ANCHORS ================== */
+    
+    #project-anchor{
+        padding: 2rem;
+        margin-left: 6rem;
+        margin-right: -5rem;
+    
+    }
+    
+    #stack-anchor{
+        padding: 2rem;
+        margin-left: 6rem;
+        margin-right: -5rem;
+    }
+    
+    #about-anchor{
+        padding: 2rem;
+        margin-left: 6rem;
+        margin-right: -5rem;
+    }
+    
+    
+    #contact-anchor{
+        padding: 2rem;
+        margin-left: 6rem;
+        margin-right: -5rem;
+    }
+    
+    #a-homenav{
+        margin-top: .5rem;
+        width: 5rem;
+        margin-left: -1rem;
+    }
+    
+    #me{
+        width: inherit;
+        max-width: 70rem;
+        border: 3px solid aquamarine;
+    }
+    
+    .project-link-container{
+        display:flex
+    }
+    .project-link-container a{
+        font-size: 2rem;
+        color: #9e8fa5;
+        padding-right: 1.5rem;
+    }
+    
+    }
+     
 }
