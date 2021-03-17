@@ -35,7 +35,6 @@
         background: #0c0d0f;
         z-index: 1;
         width: -webkit-fill-available;
-        margin: auto;
     }
 
 
@@ -216,7 +215,7 @@
 
   .navbar {
     width:inherit;
-    margin: auto;
+    margin-left: -4rem;
   }
 
   .text-white {
@@ -368,11 +367,6 @@
         margin-right: -5rem;
     }
     
-    #a-homenav{
-        margin-top: .5rem;
-        width: 5rem;
-        margin-left: -1rem;
-    }
     
     #me{
         width: inherit;
