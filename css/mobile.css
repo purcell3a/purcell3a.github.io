@@ -90,6 +90,38 @@
     }
 
 
+/* ====================  STACK ============================= */
+    #stack-anchor {
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 1rem;
+        margin-right: -5rem;
+    }
+
+    .col-5 {
+        -ms-flex: 0 0 41.666667%;
+        flex: 0 0 41.666667%;
+
+        width: 80%;
+        padding: 1.5rem;
+        margin: auto;
+    }
+
+
+    .card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-left: -4rem;
+    width: 35rem;
+    word-wrap: break-word;
+    background-color: #ffffff14;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+}
 
 /* ====================  IN PROGRESS ============================= */
 .container{
@@ -179,11 +211,11 @@
 }
 
 .navbar-nav {
-    padding-left: 15%;
+    display: none;
 }
 
   .navbar {
-    width: 50%;
+    width:inherit;
     margin: auto;
   }
 
@@ -250,12 +282,9 @@
     
 
     /* ====================  GRID: ROW & COL ============================= */
-    .about-main{
-        overflow-x: hidden; /* Disable horizontal scroll */
-    }
+
     .main {
         padding: 3rem;
-        overflow-x: hidden; /* Disable horizontal scroll */
     }
     
 
@@ -324,12 +353,6 @@
         margin-left: 6rem;
         margin-right: -5rem;
     
-    }
-    
-    #stack-anchor{
-        padding: 2rem;
-        margin-left: 6rem;
-        margin-right: -5rem;
     }
     
     #about-anchor{
