@@ -63,11 +63,11 @@
     background-color: #0c0b0c85;
 }
 
-.card border-light mb-3{
+.card .border-light mb-3{
     background:transparent;
 }
 
-.card about-me{
+.card .about-me{
     position: fixed;
     max-width: 90%;
     margin-left: 5%;
