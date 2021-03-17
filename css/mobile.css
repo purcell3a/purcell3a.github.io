@@ -6,7 +6,9 @@
 
     /* ================================ INDEX.HTML =============================== */
 
-
+.collapse:not(.show) {
+    display: block;
+}
     body, html{
     overflow-x: hidden;
     overflow-y: hidden;
@@ -34,7 +36,6 @@
         width:inherit
     }
     .navbar-toggler{
-        width: 10%;
         margin-left: 80%;
     }
 
