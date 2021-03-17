@@ -35,8 +35,9 @@
         background: #0c0d0f;
         z-index: 1;
         width: -webkit-fill-available;
+        width:inherit;
+        margin-left: -1rem;
     }
-
 
     .navbar-toggler{
         margin-left: 80%;
@@ -213,10 +214,7 @@
     display: none;
 }
 
-  .navbar {
-    width:inherit;
-    margin-left: -4rem;
-  }
+
 
   .text-white {
     font-family: "Open Sans", sans-serif;
