@@ -67,6 +67,23 @@
     background:transparent;
 }
 
+.card about-me{
+    position: fixed;
+    max-width: 90%;
+    margin-left: 5%;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #ffffff14;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+
+}
+
 .card {
     position: relative;
     display: -ms-flexbox;
@@ -340,7 +357,6 @@
     
     #stack-anchor{
         padding: 2rem;
-        margin-left: 6rem;
         margin-right: -5rem;
     }
     
