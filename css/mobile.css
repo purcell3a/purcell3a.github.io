@@ -5,6 +5,29 @@
 
     /* ================================ INDEX.HTML =============================== */
 
+
+    body, html{
+    overflow-x: hidden;
+    overflow-y: hidden;
+    color:#ebe2e2;
+    height:100%;
+    background: linear-gradient(-45deg, #380f02, #0c0a0b, #101b1f, #01141f);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    }
+    
+      @keyframes gradient {
+          0% {
+              background-position: 0% 50%;
+          }
+          50% {
+              background-position: 100% 50%;
+          }
+          100% {
+              background-position: 0% 50%;
+          }
+      }
+
     .navbar{
         position:fixed;
         width:inherit
