@@ -112,8 +112,8 @@
     display: flex;
     -ms-flex-direction: column;
     flex-direction: column;
-    margin-left: -4rem;
-    width: 35rem;
+    width: inherit;
+    margin: 1.5rem;
     word-wrap: break-word;
     background-color: #ffffff14;
     background-clip: border-box;
@@ -122,28 +122,12 @@
 }
 
 /* ====================  IN PROGRESS ============================= */
-.container{
-    width: 100vw;
-}
-
 
 .card border-light mb-3{
     background:transparent;
 }
 
-.card {
-    position: relative;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    min-width: 0;
-    word-wrap: break-word;
-    background-color: #ffffff14;
-    background-clip: border-box;
-    border: 1px solid rgba(0,0,0,.125);
-    border-radius: .25rem;
-}
+
 
 .nav-link {
   font-family: Roboto, Helvetica Neue, sans-serif;
