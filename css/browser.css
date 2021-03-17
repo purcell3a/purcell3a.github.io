@@ -81,7 +81,7 @@
     border-radius: .25rem;
 }
 
-.card .about-me{
+#about-me{
     position: fixed;
     max-width: 90%;
     margin-left: 5%;

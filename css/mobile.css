@@ -120,7 +120,7 @@
     border-radius: .25rem;
 }
 
-    .card .about-me{
+    #about-me{
         position: relative;
         display: -ms-flexbox;
         display: flex;
