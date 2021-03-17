@@ -92,7 +92,7 @@
 /* ====================  STACK ============================= */
     #stack-anchor {
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction: column;
     }
 
     .col-5 {
