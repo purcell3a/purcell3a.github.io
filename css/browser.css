@@ -89,7 +89,7 @@
     padding: 0rem;
     position: fixed;
     max-width: 90%;
-    margin-left: 5%;
+    /* margin-left: 5%; */
     display: -ms-flexbox;
     display: flex;
     -ms-flex-direction: column;
