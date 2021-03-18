@@ -362,7 +362,8 @@
     
     #stack-anchor{
         padding: 2rem;
-        margin-right: -5rem;
+        /* margin-right: -5rem; */
+        justify-content:center;
     }
     
     #about-anchor{
