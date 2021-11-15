@@ -187,7 +187,7 @@
 
 .social a{
     font-size: 1.5rem;
-    color: #926f7a;
+    color: #67737e;
     margin: 1rem;
 }
 
@@ -254,7 +254,7 @@
         overflow-y: hidden;
         color:#ebe2e2;
         height:100%;
-        background: linear-gradient(-45deg, #481403, #292226, #17272d, #02283e);
+        background: linear-gradient(-45deg, #000000, #000000, #000000, #000000);
         background-size: 400% 400%;
         animation: gradient 15s ease infinite;
     }
