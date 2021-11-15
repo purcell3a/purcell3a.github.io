@@ -45,7 +45,7 @@
 
 /* Style the back side */
 .flip-card-back {
-  background-color: ##ffffff14;
+  background-color: #ffffff14;
   color: #bceae6cf;
   transform: rotateY(180deg);
 }
@@ -192,142 +192,142 @@
 }
 
 
-    
-    .overlay {
-        background: rgb(89 85 85);
-        transition: .5s ease;
-        opacity: 2;
-        font-size: 20px;
-        text-align: center;
-        width: inherit;
-        vertical-align: middle;
-        max-width: 70rem;
-    }
-      
-      /* When you mouse over the container, fade in the overlay title */
-    #resume-img:hover .overlay {
-        opacity: 1;
-    }
-    
-    
-    #first-row{
-        background: transparent;
-    }
 
-    #Acclivity-a{
-       width:inherit; 
-    }
+.overlay {
+    background: rgb(89 85 85);
+    transition: .5s ease;
+    opacity: 2;
+    font-size: 20px;
+    text-align: center;
+    width: inherit;
+    vertical-align: middle;
+    max-width: 70rem;
+}
 
-    #Acclivity-img{
-        width:inherit;
-        vertical-align: middle;
-        outline: inset;
-        outline-color: aquamarine;
-    }
-    
-    #shoppies-img{
-        width:inherit;
-        vertical-align: middle;
-        outline: inset;
-        outline-color: aquamarine;
-    }
-    
-    #shoppies-a{
-        width:inherit;
-    }
-    
-    
-    #resume-a{
-        width: inherit;
-    }
-    
-    
-    #resume-img{
-        width: inherit;
-        vertical-align: middle;
-        max-width: 70rem;
-    }
-    
-    /* ====================  GLOBAL ============================= */
-    body, html{
-        overflow-x: hidden;
-        overflow-y: hidden;
-        color:#ebe2e2;
-        height:100%;
-        background: linear-gradient(-45deg, #000000, #000000, #000000, #000000);
-        background-size: 400% 400%;
-        animation: gradient 15s ease infinite;
-    }
-    
-      @keyframes gradient {
-          0% {
-              background-position: 0% 50%;
-          }
-          50% {
-              background-position: 100% 50%;
-          }
-          100% {
-              background-position: 0% 50%;
-          }
-      }
+    /* When you mouse over the container, fade in the overlay title */
+#resume-img:hover .overlay {
+    opacity: 1;
+}
 
-    
-    h1{
-        font-size: 8rem;
-        font-weight: 500;
-        transition: all 0.3s ease-out;
+
+#first-row{
+    background: transparent;
+}
+
+#Acclivity-a{
+    width:inherit; 
+}
+
+#Acclivity-img{
+    width:inherit;
+    vertical-align: middle;
+    outline: inset;
+    outline-color: aquamarine;
+}
+
+#shoppies-img{
+    width:inherit;
+    vertical-align: middle;
+    outline: inset;
+    outline-color: aquamarine;
+}
+
+#shoppies-a{
+    width:inherit;
+}
+
+
+#resume-a{
+    width: inherit;
+}
+
+
+#resume-img{
+    width: inherit;
+    vertical-align: middle;
+    max-width: 70rem;
+}
+
+/* ====================  GLOBAL ============================= */
+body, html{
+    overflow-x: hidden;
+    overflow-y: hidden;
+    color:#ebe2e2;
+    height:100%;
+    background: linear-gradient(-45deg, #000000, #000000, #000000, #000000);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
     }
-    
-    h2{
-        color: #8d8d8d;
-        margin-top: 20px;
-        font-weight: normal;
-        font-size: 2rem;
-        font-family: "Open Sans", sans-serif;
-        letter-spacing: 3px;
-        -webkit-animation: myanim2 1s 1.8s backwards;
-        animation: myanim2 1s 1.8s backwards;
+    50% {
+        background-position: 100% 50%;
     }
-    
-    /* ====================  GRID: ROW & COL ============================= */
-    .about-main{
-        overflow-x: hidden; /* Disable horizontal scroll */
+    100% {
+        background-position: 0% 50%;
     }
-    .main {
-        padding: 3rem;
-        overflow-x: hidden; /* Disable horizontal scroll */
-    }
+}
+
+
+h1{
+    font-size: 8rem;
+    font-weight: 500;
+    transition: all 0.3s ease-out;
+}
+
+h2{
+    color: #8d8d8d;
+    margin-top: 20px;
+    font-weight: normal;
+    font-size: 2rem;
+    font-family: "Open Sans", sans-serif;
+    letter-spacing: 3px;
+    -webkit-animation: myanim2 1s 1.8s backwards;
+    animation: myanim2 1s 1.8s backwards;
+}
     
-    .row{
-        height: 100vh;
-        display: flex;
-        flex-wrap: wrap;
-        margin-right: -15px;
-    }
+/* ====================  GRID: ROW & COL ============================= */
+.about-main{
+    overflow-x: hidden; /* Disable horizontal scroll */
+}
+.main {
+    padding: 3rem;
+    overflow-x: hidden; /* Disable horizontal scroll */
+}
+
+.row{
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+}
+
+#nav-col{
+    border: 1px solid azure;
+    background:transparent;
+}
+
+
+#img-col{
+    width:50%;
+    margin-top: 30%;
+    z-index: 1;
+
+}
     
-    #nav-col{
-        border: 1px solid azure;
-        background:transparent;
-    }
     
-    
-    #img-col{
-        width:50%;
-        margin-top: 30%;
-        z-index: 1;
-    
-    }
-    
-    
-    #title{
-        margin: auto;
-        width: 60%;
-        padding: 10px;
-        font-family: "Dosis", Helvetica, Arial, sans-serif;
-        text-align: center;
-        color:linear-gradient(#c6eaea, #dcdae2);
-    }
-    
+#title{
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+    font-family: "Dosis", Helvetica, Arial, sans-serif;
+    text-align: center;
+    color:linear-gradient(#c6eaea, #dcdae2);
+}
+
 
 
 
@@ -351,54 +351,55 @@
 .fa {
     color: white;
 }
-      /* ================================ ANCHORS ================== */
+
+/* ================================ ANCHORS ================== */
+
+#project-anchor{
+    padding: 2rem;
+    margin-left: 6rem;
+    margin-right: -5rem;
+
+}
+
+#stack-anchor{
+    padding: 2rem;
+    /* margin-right: -5rem; */
+    justify-content:center;
+}
     
-    #project-anchor{
-        padding: 2rem;
-        margin-left: 6rem;
-        margin-right: -5rem;
+#about-anchor{
+    padding: 2rem;
+    margin-left: 6rem;
+    margin-right: -5rem;
+}
+
+
+#contact-anchor{
+    padding: 2rem;
+    margin-left: 6rem;
+    margin-right: -5rem;
+}
     
-    }
-    
-    #stack-anchor{
-        padding: 2rem;
-        /* margin-right: -5rem; */
-        justify-content:center;
-    }
-    
-    #about-anchor{
-        padding: 2rem;
-        margin-left: 6rem;
-        margin-right: -5rem;
-    }
-    
-    
-    #contact-anchor{
-        padding: 2rem;
-        margin-left: 6rem;
-        margin-right: -5rem;
-    }
-    
-    #a-homenav{
-        margin-top: .5rem;
-        width: 5rem;
-        margin-left: -1rem;
-    }
-    
-    #me{
-        width: inherit;
-        max-width: 70rem;
-        border: 3px solid aquamarine;
-    }
-    
-    .project-link-container{
-        display:flex
-    }
-    .project-link-container a{
-        font-size: 2rem;
-        color: #9e8fa5;
-        padding-right: 1.5rem;
-    }
-    
-    }
+#a-homenav{
+    margin-top: .5rem;
+    width: 5rem;
+    margin-left: -1rem;
+}
+
+#me{
+    width: inherit;
+    max-width: 70rem;
+    border: 3px solid aquamarine;
+}
+
+.project-link-container{
+    display:flex
+}
+.project-link-container a{
+    font-size: 2rem;
+    color: #9e8fa5;
+    padding-right: 1.5rem;
+}
+
+}
     
