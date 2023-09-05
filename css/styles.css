@@ -38,6 +38,7 @@ nav a:hover {
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
     padding: 20px;
+    padding: 1.5rem;
 }
 
 .project-card {
@@ -49,6 +50,7 @@ nav a:hover {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin: 1rem;
 }
 
 .project-card img {
