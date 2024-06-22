@@ -1,84 +1,317 @@
 <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Angela Purcell</title>
 
-    <html>
-        <head>
+    <!-- BOOTSTRAP CSS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> 
 
-        <title>Angela Purcell</title>
-        <!-- BOOTSTRAP CSS-->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> 
+    <style>
 
-        <!--FONT-AWESOME-->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-        <!-- FONTISTO-->
-        <link rel=“stylesheet” href=“https://cdn.jsdelivr.net/npm/fontisto@v3.0.4/css/fontisto/fontisto.min.css”></i>
-        <link rel=“stylesheet” href=“https://cdn.jsdelivr.net/npm/fontisto@v3.0.4/css/fontisto/fontisto-editors.min.css”></i>
-        <link rel=“stylesheet” href=“https://cdn.jsdelivr.net/npm/fontisto@v3.0.4/css/fontisto/fontisto-brands.min.css”></i>
-        <link rel=“stylesheet” href=“https://cdn.jsdelivr.net/npm/fontisto@v3.0.4/css/fontisto/fontisto-player.min.css”></i>
-        <!-- OUR CSS-->
-        <link rel="stylesheet" type="text/css" href="css/browser.css"/>
-        <link rel="stylesheet" type="text/css" href="css/mobile.css"/>
-        <script  src="/static/js/scripts.jsx"></script>
-        <script src="http://code.jquery.com/jquery.js"></script>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: black;
+            background-color: black;
+            min-height: 100%;
+        }
+        header {
+            background-color: black;
+            color:black;
+            padding: 10px 0;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            overflow: hidden;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        .intro {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: black;
+            color: white;
+            padding-top: 60px; /* To prevent content from being hidden under the fixed header */
+        }
+        .intro h1 {
+            font-size: 4em;
+            margin: 0;
+        }
+        .intro p {
+            font-size: 1.5em;
+            margin: 10px 0;
+        }
+        .social-links a {
+            margin: 0 10px;
+            color: white;
+            text-decoration: none;
+            font-size: 1.5em;
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: rgba(80, 80, 80, 0.275);
+            color: white;
+            border-radius: 10px;
+            box-shadow: 0 0 50px  rgba(116, 116, 116, 0.1);
+        }
+        .projects-section {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
 
-        </head>
+        .resume-card{
+            background-color: rgba(0, 0, 0, 0);
+            color: white;
+            min-width: 360px;
+            max-width: 1200px;
+            padding: 20px;
+            /* box-shadow: 0 0 10px whitesmoke; */
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            position: relative;
 
-        <body>
-                <div class="hero">
-                  <div class="container">
-                    <nav class="navbar navbar-expand-lg navbar-dark">
-                      <button class="navbar-toggler" type="button" data-toggle="collapse" 
-                              data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" 
-                              aria-expanded="false" aria-label="Toggle navigation" onclick='myFunction()'>
-                        <span class="navbar-toggler-icon"></span>
-                      </button>
+        }
 
-                      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                        <ul class="navbar-nav">
+        .card {
+            background-color: black;
+            color: white;
+            width: 320px;
+            padding: 20px;
+            box-shadow: 0 0 10px whitesmoke;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            position: relative;
+        }
+        .card img {
+            width: 100%;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+        
+        .card footer {
+            margin-top: auto;
+            width: 100%;
+            text-align: center;
+            padding-top: 10px;
+            border-top: 1px solid #010101;
+        }
 
-                          <li class="nav-item">
-                            <a class="nav-link" href="index.html">Home</a>
-                          </li>
+        .stack-section {
+            padding: 5rem;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            gap: 40px;
+        }
+        
+        .stack-section .col-5 {
+            flex: 1;
+        }
+        #resume-a {
+            display: block;
+            position: relative;
+            text-align: center;
+        }
+        #resume-img {
+            width: 50vh;
+            max-height: 90vh;
+            min-width: 360px;
+            max-width: 1200px;
+            border-radius: 2rem;
+        }
+        .overlay {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 100%;
+            width: 100%;
+            opacity: 0;
+            transition: .5s ease;
+            background-color: rgba(0,0,0,0.5);
+            color: white;
+            font-size: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 10px;
+        }
+        #resume-a:hover .overlay {
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
 
-                          <li class="nav-item">
-                            <a class="nav-link" href="about.html">About</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="projects.html">Projects</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="stack.html">Stack</a>
-                          </li>
-                        </ul>
+<header>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#stack">Stack</a></li>
+        </ul>
+    </nav>
+</header>
 
-                      </div>
-                    </nav>
+<div id="home" class="intro">
+    <h1>Angela Purcell</h1>
+    <p>Backend Developer</p>
+    <div class="social-links">
+        <a href="https://github.com/purcell3a" target="_blank"><i class="bi bi-github"></i></a>
+        <a href="https://www.linkedin.com/in/purcell3a/" target="_blank"><i class="bi bi-linkedin"></i></a>
+        <a href="https://twitter.com/nachoshaman/" target="_blank"><i class="bi bi-twitter"></i></a>
+    </div>
+</div>
 
-                    
-                    <div class="hero-heading">
-                      <h1>Angela Purcell</h1>
-                      <h2>Backend Developer</h2>
+<section id="about">
+    <p class="TODO">
+        <i>
+        I'm a Backend Engineer deeply passionate about tech that unifies educates, and empowers.
+        <br/>
+        Right now I'm looking for open source projects and other ways I can contribute to the community with my skills.
+        <br/> <br/>
+        I feel most activated on projects focused on security or societal benefit for the underserved.
+        <br/><br/>
+        (TLDR; I like building things that make healthcare, financial well-being, or education more accessible! )
+        <i> 
+    </p>
 
-                      <div class="social">
-                        <a href="https://github.com/purcell3a" target="_blank"><i class="bi bi-github"></i></a>
-                        <a href="https://www.linkedin.com/in/purcell3a/" target="_blank"><i class="bi bi-linkedin"></i></a>
-                        <a href="https://twitter.com/nachoshaman/" target="_blank"><i class="bi bi-twitter"></i></a>
-                      </div>
-                    </div>
-
-                  </div>
-                </div>
-
-        </body>
-
-    </html>
-
+    <i> I'm very goal-oriented and motivated by challenges.
+        <br/><br/>
+        I thrive on teams that love to dive deep and get creative with our solutions!
+        <br/><br/>
 
 
-    <script src="js/script.js"></script>
+        I have a deep drive to create, when I'm not programming you'll find me traveling, planning get-togethers, or making art with LED's, fabric, and paint!
+      <i>  
+</section>
+
+<section id="projects">
+    <div class="projects-section">
+        <div class="card">
+            <img src="img/zaddy.jpg" alt="Boys Club: Zaddy Image">
+            <h3>Boys Club: Zaddy</h3>
+            <p>This was the second of the first two Boys Club NFT launches which I designed, wrote and launched.
+                <br><br>
+                I used the 721-A contract to keep the minting fees less than $3 at the height of the crypto market.
+                Designed to raise funds for Boys Club, the sale grossed over $300k for our DAO.
+            </p>
+            <footer>
+                <a href="https://opensea.io/collection/boysclubzaddy" target="_blank">OpenSea</a>
+            </footer>
+        </div>
+        <div class="card">
+            <img src="img/maincharacter.png" alt="Boys Club: Main Character Image">
+            <h3>Boys Club: Main Character</h3>
+            <p>This was a free-to-mint contract I designed and wrote for Boys Club, this was one of their first two NFT launches in which I was their technical lead and advisor as well as the developer.
+                <br><br>
+                This contract was designed to recognize the first members of Boys Club.
+            </p>
+            <footer>
+                <a href="https://opensea.io/collection/boysclubmaincharacter" target="_blank">OpenSea</a>
+            </footer>
+        </div>
+        <div class="card">
+            <img src="img/graphiqly.png" alt="Graphiqly Image">
+            <h3>Graphiqly</h3>
+            <p>Graphiqly is an aggregate of ETH NFT activity to provide marketing analytics for founders
+                launching new collections.
+                <br><br>
+                Graphiqly works by displaying influential wallets specific to an NFT category,
+                trending projects, and a breakdown of successful NFTs based on traits.
+            </p>
+            <footer>
+                <a href="https://devpost.com/software/graphytime" target="_blank">Devpost</a>
+            </footer>
+        </div>
+        <div class="card">
+            <img src="img/moralauthority.png" alt="Moral Authority Image">
+            <h3>MORAL AUTHORITY</h3>
+            <p>An online marketplace empowering users to easily 'vote with their dollar'.
+                <br><br>
+                With Moral Authority users can search for products based on the Social, Environmental, Political
+                and physical(Human Health) impact of a product and the company that makes it.
+                <br><br>
+                This was built for my capstone project with Hackbright Academy.
+            </p>
+            <footer>
+                <a href="https://github.com/purcell3a/Moral-Authority" target="_blank">GitHub</a>
+                <a href="https://www.youtube.com/watch?v=pJaX34OxKm8&t=11s" target="_blank">YouTube</a>
+            </footer>
+        </div>
+        <div class="card">
+            <img src="img/acclivity.png" alt="Acclivity Image">
+            <h3>ACCLIVITY</h3>
+            <p>A dividend dashboard allowing users to build a mock dividend portfolio based on a concise presentation of the
+                risk, industry diversification, and cost/payout.
+                <br><br>
+                This was a project built for Athena Hacks Hackathon 2021.
+            </p>
+            <footer>
+                <a href="https://github.com/Heather1337/Acclivity" target="_blank">GitHub</a>
+                <a href="https://devpost.com/software/acclivity?ref_content=user-portfolio&ref_feature=in_progress" target="_blank">Devpost</a>
+            </footer>
+        </div>
+    </div>
+</section>
+
+
+<section id="stack">
+    <div class="projects-section">
+        <div class="resume-card">
+            <h2>Languages</h2>
+            <p>Python | Golang | Javascript (AJAX, JSON) | SQL | HTML | CSS</p>
+
+            <h2>Database & Industry Tools</h2>
+            <p>AWS | Sentry | Retool | Git | Github | Vagrant | Command Line | PostgreSQL</p>
+
+            <h2>Frameworks & Libraries</h2>
+            <p>Flask | jQuery | Jinja | React | Bootstrap</p>
+
+            <br><br>
+
+            <p>Visit my <a href="https://www.linkedin.com/in/purcell3a/">LinkedIn</a> to contact me.</p>
+        </div> 
+        <div class="resume-card">
+            <a href="img/AngelaPurcellResume.pdf" id="resume-a" download>
+                <img id="resume-img" src="https://res.cloudinary.com/purcella/image/upload/v1644856647/Screen_Shot_2022-02-14_at_8.37.03_AM_hxlnir.png" alt="Resume">
+                <div class="overlay">Click to Download</div>
+            </a>
+        </div>
+
+
+    </div>
+</section>
